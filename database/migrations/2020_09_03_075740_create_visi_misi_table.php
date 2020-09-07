@@ -15,6 +15,7 @@ class CreateVisiMisiTable extends Migration
     {
         Schema::create('visi_misi', function (Blueprint $table) {
             $table->integer('id')->autoIncrement();
+            $table->string('category_name'); //visi or misi
             $table->string('title');
             $table->text('content');
             $table->text('specific')->nullable();

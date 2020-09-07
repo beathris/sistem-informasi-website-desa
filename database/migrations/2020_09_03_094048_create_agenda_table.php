@@ -16,7 +16,7 @@ class CreateAgendaTable extends Migration
         Schema::create('agenda', function (Blueprint $table) {
             $table->integer('id')->autoIncrement();
             $table->string('title');
-            $table->dateTime('execution_time');
+            $table->dateTime('date_time');
             $table->string('location');
             $table->string('coordinator');
             $table->timestamps();

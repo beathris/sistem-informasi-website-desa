@@ -16,8 +16,7 @@ class CreateHomeTable extends Migration
         Schema::create('home', function (Blueprint $table) {
             $table->integer('id')->autoIncrement();
             $table->string('title');
-            $table->string('editor');
-            $table->timestamp('created_date');
+            $table->string('author');
             $table->integer('visitor');
             $table->text('description');
             $table->string('image');

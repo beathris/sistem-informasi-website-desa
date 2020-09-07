@@ -16,7 +16,7 @@ class CreateArtikelTable extends Migration
         Schema::create('article', function (Blueprint $table) {
             $table->integer('id')->autoIncrement();
             $table->string('title');
-            $table->string('editor');
+            $table->string('author');
             $table->timestamp('created_date');
             $table->integer('visitor');
             $table->integer('news_category_id');

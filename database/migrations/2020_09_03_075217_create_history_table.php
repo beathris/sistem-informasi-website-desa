@@ -16,7 +16,7 @@ class CreateHistoryTable extends Migration
         Schema::create('history', function (Blueprint $table) {
             $table->integer('id')->autoIncrement();
             $table->string('title');
-            $table->string('editor');
+            $table->string('author');
             $table->timestamp('created_date');
             $table->integer('visitor');
             $table->text('history');

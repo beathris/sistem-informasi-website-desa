@@ -15,7 +15,7 @@ class CreateNewsCategoryTable extends Migration
     {
         Schema::create('news_category', function (Blueprint $table) {
             $table->integer('id')->autoIncrement();
-            $table->string('category');
+            $table->string('name');
             $table->timestamps();
         });
     }

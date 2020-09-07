@@ -17,10 +17,10 @@ class CreateNewsTable extends Migration
             $table->integer('id')->autoIncrement();
             $table->integer('news_category');
             $table->string('title');
+            $table->text('content');
             $table->string('image')->nullable();
             $table->integer('visitor');
-            $table->string('editor');
-            $table->timestamp('created_date');
+            $table->string('author');
             $table->timestamps();
         });
     }
