@@ -18,9 +18,9 @@ class CreateHistoryTable extends Migration
             $table->string('title');
             $table->string('author');
             $table->timestamp('created_date');
-            $table->integer('visitor');
+            $table->integer('visitor')->nullable();
             $table->text('history');
-            $table->string('image');
+            $table->string('image')->nullable();
             $table->timestamps();
         });
     }

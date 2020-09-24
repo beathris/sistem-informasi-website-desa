@@ -18,7 +18,7 @@ class CreateArtikelTable extends Migration
             $table->string('title');
             $table->string('author');
             $table->timestamp('created_date');
-            $table->integer('visitor');
+            $table->integer('visitor')->nullable();
             $table->integer('news_category_id');
             $table->foreign('news_category_id')->references('id')->on('news_category');
             $table->text('article');
