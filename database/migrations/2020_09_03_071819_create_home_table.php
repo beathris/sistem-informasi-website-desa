@@ -17,9 +17,9 @@ class CreateHomeTable extends Migration
             $table->integer('id')->autoIncrement();
             $table->string('title');
             $table->string('author');
-            $table->integer('visitor');
+            $table->integer('visitor')->nullable();
             $table->text('description');
-            $table->string('image');
+            $table->string('image')->nullable();
             $table->timestamps();
         });
     }

@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class StaffCategory extends Model
 {
     protected $table = 'staff_category';
-    protected $fillable = 'name';
+    protected $fillable = ['name'];
 
     public function staff(){
-        return $this->hasOne('staff');
+        return $this->hasMany(Staff::class);
     }
 }

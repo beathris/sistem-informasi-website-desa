@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::resource('/dashboard', 'DashboardController');
+Route::resource('/visi-misi', 'VisiMisiController');
+Route::resource('/sejarah-desa', 'SejarahDesaController');
+Route::resource('/staff-category', 'StaffCategoryController');
+Route::resource('/staff', 'StaffController');
