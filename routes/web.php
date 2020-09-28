@@ -24,3 +24,7 @@ Route::resource('/visi-misi', 'VisiMisiController');
 Route::resource('/sejarah-desa', 'SejarahDesaController');
 Route::resource('/staff-category', 'StaffCategoryController');
 Route::resource('/staff', 'StaffController');
+Route::resource('/institution', 'InstitutionController');
+Route::resource('/potency-category', 'PotencyCategoryController');
+Route::resource('/potency', 'PotencyController');
+Route::resource('/service', 'ServicesController');

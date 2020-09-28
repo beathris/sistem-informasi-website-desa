@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Institution extends Model
 {
     protected $table = 'institution';
-    protected $fillable = ['title', 'content', 'category'];
+    protected $fillable = ['title', 'content', 'category', 'specific_content'];
 }

@@ -187,21 +187,14 @@
                         </div>
                     </li>
                     <li class="sidebar-item">
-                        <div class="dropdown">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link dropdown-toggle"
-                               id="dropdownMenuButton" data-toggle="dropdown">
-                                <i class="mdi mdi-av-timer"></i>
-                                <span class="hide-menu">Lembaga Masyarakat</span>
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">LPMD</a>
-                                <a class="dropdown-item" href="#">Karang Taruna</a>
-                                <a class="dropdown-item" href="#">Linmas</a>
-                            </div>
-                        </div>
+                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="/institution/"
+                           aria-expanded="false">
+                            <i class="mdi mdi-account-network"></i>
+                            <span class="hide-menu">Lembaga Masyarakat</span>
+                        </a>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="form-basic.html"
+                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="/service/"
                            aria-expanded="false">
                             <i class="mdi mdi-arrange-bring-forward"></i>
                             <span class="hide-menu">Pelayanan</span>
@@ -215,10 +208,8 @@
                                 <span class="hide-menu">Potensi Desa</span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Pertanian</a>
-                                <a class="dropdown-item" href="#">Pariwisata</a>
-                                <a class="dropdown-item" href="#">Perikanan</a>
-                                <a class="dropdown-item" href="#">UKM</a>
+                                <a class="dropdown-item" href="/potency-category/">Kategori</a>
+                                <a class="dropdown-item" href="/potency/">Potensi Desa</a>
                             </div>
                         </div>
                     </li>
