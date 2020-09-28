@@ -10,6 +10,6 @@ class PotencyCategory extends Model
     protected $fillable = ['name'];
 
     public function potency(){
-        return $this->hasOne('potency');
+        return $this->hasOne(Potency::class);
     }
 }
