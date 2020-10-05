@@ -30,3 +30,4 @@ Route::resource('/potency', 'PotencyController');
 Route::resource('/service', 'ServicesController');
 Route::resource('/administration-area', 'AdministrationAreaController');
 Route::resource('/education', 'EducationController');
+Route::resource('/under-graduate', 'UnderGraduateDataController');
