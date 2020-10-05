@@ -6,6 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class AdministrationArea extends Model
 {
-    protected $table = 'administration_data';
+    protected $table = 'administration_area';
     protected $fillable = ['dusun_name', 'kasun_name', 'neighborhood_association', 'family', 'amount_of_people', 'male', 'female'];
 }

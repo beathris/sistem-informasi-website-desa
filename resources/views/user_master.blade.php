@@ -221,7 +221,7 @@
                                 <span class="hide-menu">Data Desa</span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Wilayah Administrasi</a>
+                                <a class="dropdown-item" href="/administration-area/">Wilayah Administrasi</a>
                                 <a class="dropdown-item" href="#">Pendidikan dalam KK</a>
                                 <a class="dropdown-item" href="#">Pendidikan Ditempuh</a>
                                 <a class="dropdown-item" href="#">Pekerjaan</a>
@@ -246,17 +246,23 @@
                                 <span class="hide-menu">Berita</span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Desa</a>
-                                <a class="dropdown-item" href="#">Bengkalis</a>
+                                <a class="dropdown-item" href="#">Kategori</a>
+                                <a class="dropdown-item" href="#">Berita</a>
                             </div>
                         </div>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="icon-material.html"
-                           aria-expanded="false">
-                            <i class="mdi mdi-face"></i>
-                            <span class="hide-menu">Transparansi</span>
-                        </a>
+                        <div class="dropdown">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link dropdown-toggle"
+                               id="dropdownMenuButton" data-toggle="dropdown">
+                                <i class="mdi mdi-av-timer"></i>
+                                <span class="hide-menu">Artikel</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Kategori</a>
+                                <a class="dropdown-item" href="#">Artikel</a>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </nav>

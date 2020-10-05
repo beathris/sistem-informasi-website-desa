@@ -28,3 +28,4 @@ Route::resource('/institution', 'InstitutionController');
 Route::resource('/potency-category', 'PotencyCategoryController');
 Route::resource('/potency', 'PotencyController');
 Route::resource('/service', 'ServicesController');
+Route::resource('/administration-area', 'AdministrationAreaController');
