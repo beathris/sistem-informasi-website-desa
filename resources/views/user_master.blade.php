@@ -134,7 +134,8 @@
                                 Profile</a>
                             <a class="dropdown-item" href="{{ route('logout') }}"
                                onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();"><i class="ti ti-close"></i>
+                                                     document.getElementById('logout-form').submit();"><i
+                                    class="ti ti-close"></i>
                                 {{ __('Logout') }}
                             </a>
 
@@ -246,8 +247,9 @@
                                 <span class="hide-menu">Berita</span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Kategori</a>
-                                <a class="dropdown-item" href="#">Berita</a>
+                                <a class="dropdown-item" href="/news-category/">Kategori</a>
+                                <a class="dropdown-item" href="/news/">Berita</a>
+                                <a class="dropdown-item" href="/article/">Artikel</a>
                             </div>
                         </div>
                     </li>

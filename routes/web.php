@@ -35,3 +35,4 @@ Route::resource('/profession-data', 'UnderGraduateDataController');
 Route::resource('/religion', 'ReligionDataController');
 Route::resource('/range-age', 'ReligionDataController');
 Route::resource('/gender', 'GenderDataController');
+Route::resource('/news-category', 'NewsCategoryController');

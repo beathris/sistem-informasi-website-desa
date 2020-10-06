@@ -10,6 +10,6 @@ class Article extends Model
     protected $fillable = ['title', 'author', 'created_date', 'visitor','article'];
 
     public function news_category(){
-        return $this->belongsTo('news_category', 'news_category_id');
+        return $this->belongsTo(NewsCategory::class, 'news_category_id');
     }
 }
