@@ -8,7 +8,7 @@
                     <h4 class="card-title text-center">Update Data</h4>
                 </div>
                 <div class="card card-body">
-                    <form class="form-horizontal m-t-30" action="{{url('/education', [$data->id] )}}" method="POST">
+                    <form class="form-horizontal m-t-30" action="{{url('/profession-data', [$data->id] )}}" method="POST">
                         {{method_field('PUT')}}
                         @csrf
                         <div class="form-group">

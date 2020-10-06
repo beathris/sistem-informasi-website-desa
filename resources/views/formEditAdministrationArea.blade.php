@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="card-header py-3">
-                    <h4 class="card-title text-center">Add New</h4>
+                    <h4 class="card-title text-center">Update Data</h4>
                 </div>
                 <div class="card card-body">
                     <form class="form-horizontal m-t-30" action="{{url('/administration-area', [$data->id] )}}" method="POST">

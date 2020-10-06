@@ -14,7 +14,7 @@
                             <li class="breadcrumb-item">
                                 <a href="/dashboard">Home</a>
                             </li>
-                            <li class="breadcrumb-item active" aria-current="page">Data Pendidikan</li>
+                            <li class="breadcrumb-item active" aria-current="page">Data Pekerjaan</li>
                         </ol>
                     </nav>
                 </div>
@@ -28,7 +28,7 @@
     <!-- Container fluid  -->
     <!-- ============================================================== -->
     <div class="container-fluid">
-        <a href="{{url('/education/create')}}" type="button" class="btn btn-success mb-3"><i
+        <a href="{{url('/profession-data/create')}}" type="button" class="btn btn-success mb-3"><i
                 class="mdi mdi-plus-circle"></i> Add New</a>
         <table class="table table-hover table-striped table-bordered">
             <thead class="table-info">
@@ -43,16 +43,16 @@
             </thead>
             <tbody>
             <tr>
-                @foreach($data as $education)
+                @foreach($data as $job)
                     <th scope="row">{{$loop->index}}</th>
-                    <td>{{$education->group}}</td>
-                    <td>{{$education->total}}</td>
-                    <td>{{$education->female}}</td>
-                    <td>{{$education->male}}</td>
+                    <td>{{$job->group}}</td>
+                    <td>{{$job->total}}</td>
+                    <td>{{$job->female}}</td>
+                    <td>{{$job->male}}</td>
                     <td>
-                        <a href="{{url('/education/'.$education->id.'/edit')}}" type="button"
+                        <a href="{{url('/job/'.$job->id.'/edit')}}" type="button"
                            class="btn btn-warning btn-block mb-2"><i class="mdi mdi-update"></i>Edit</a>
-                        <form action="{{url('/education/'.$education->id)}}" method="POST">
+                        <form action="{{url('/job/'.$job->id)}}" method="POST">
                             <input class="btn btn-danger btn-block" type="submit" value="Delete">
                             <input type="hidden" name="_method" value="delete"/>
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">

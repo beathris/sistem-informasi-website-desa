@@ -224,7 +224,7 @@
                                 <a class="dropdown-item" href="/administration-area/">Wilayah Administrasi</a>
                                 <a class="dropdown-item" href="/education/">Pendidikan dalam KK</a>
                                 <a class="dropdown-item" href="/under-graduate/">Pendidikan Ditempuh</a>
-                                <a class="dropdown-item" href="/job/">Pekerjaan</a>
+                                <a class="dropdown-item" href="/profession-data/">Pekerjaan</a>
                                 <a class="dropdown-item" href="/religion/">Agama</a>
                                 <a class="dropdown-item" href="/gender/">Jenis Kelamin</a>
                                 <a class="dropdown-item" href="#">Warga Negara</a>

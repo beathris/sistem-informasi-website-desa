@@ -14,7 +14,7 @@
                             <li class="breadcrumb-item">
                                 <a href="/dashboard">Home</a>
                             </li>
-                            <li class="breadcrumb-item active" aria-current="page">Area Administrasi</li>
+                            <li class="breadcrumb-item active" aria-current="page">Data Pendidikan Ditempuh</li>
                         </ol>
                     </nav>
                 </div>
