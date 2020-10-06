@@ -32,3 +32,4 @@ Route::resource('/administration-area', 'AdministrationAreaController');
 Route::resource('/education', 'EducationController');
 Route::resource('/under-graduate', 'UnderGraduateDataController');
 Route::resource('/profession-data', 'UnderGraduateDataController');
+Route::resource('/religion', 'ReligionDataController');
