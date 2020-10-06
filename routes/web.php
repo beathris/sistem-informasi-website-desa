@@ -33,3 +33,4 @@ Route::resource('/education', 'EducationController');
 Route::resource('/under-graduate', 'UnderGraduateDataController');
 Route::resource('/profession-data', 'UnderGraduateDataController');
 Route::resource('/religion', 'ReligionDataController');
+Route::resource('/range-age', 'ReligionDataController');

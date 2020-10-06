@@ -226,8 +226,8 @@
                                 <a class="dropdown-item" href="/under-graduate/">Pendidikan Ditempuh</a>
                                 <a class="dropdown-item" href="/profession-data/">Pekerjaan</a>
                                 <a class="dropdown-item" href="/religion/">Agama</a>
-                                <a class="dropdown-item" href="/gender/">Jenis Kelamin</a>
-                                <a class="dropdown-item" href="#">Warga Negara</a>
+                                <a class="dropdown-item" href="/range-age/">Rentang Umur</a>
+                                <a class="dropdown-item" href="/gender">Jenis Kelamin</a>
                             </div>
                         </div>
                     </li>
