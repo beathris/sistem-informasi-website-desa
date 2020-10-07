@@ -37,3 +37,5 @@ Route::resource('/range-age', 'ReligionDataController');
 Route::resource('/gender', 'GenderDataController');
 Route::resource('/news-category', 'NewsCategoryController');
 Route::resource('/news', 'NewsController');
+Route::resource('/article', 'ArticleController');
+Route::resource('/agenda', 'AgendaController');

@@ -233,10 +233,10 @@
                         </div>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="table-basic.html"
+                        <a class="sidebar-link waves-effect waves-dark sidebar-link" href="/agenda"
                            aria-expanded="false">
                             <i class="mdi mdi-border-none"></i>
-                            <span class="hide-menu">Table</span>
+                            <span class="hide-menu">Agenda</span>
                         </a>
                     </li>
                     <li class="sidebar-item">
@@ -250,19 +250,6 @@
                                 <a class="dropdown-item" href="/news-category/">Kategori</a>
                                 <a class="dropdown-item" href="/news/">Berita</a>
                                 <a class="dropdown-item" href="/article/">Artikel</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="sidebar-item">
-                        <div class="dropdown">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link dropdown-toggle"
-                               id="dropdownMenuButton" data-toggle="dropdown">
-                                <i class="mdi mdi-av-timer"></i>
-                                <span class="hide-menu">Artikel</span>
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Kategori</a>
-                                <a class="dropdown-item" href="#">Artikel</a>
                             </div>
                         </div>
                     </li>
