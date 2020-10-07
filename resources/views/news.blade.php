@@ -35,12 +35,13 @@
             <thead class="table-info">
             <tr>
                 <th scope="col">No</th>
-                <th scope="col">Title</th>
-                <th scope="col">Author</th>
-                <th scope="col">Visitor</th>
-                <th scope="col">Content</th>
-                <th scope="col">Image</th>
-                <th scope="col">Create Date</th>
+                <th scope="col">Judul</th>
+                <th scope="col">Penulis</th>
+                <th scope="col">Pengunjung</th>
+                <th scope="col">Kategory</th>
+                <th scope="col">Konten</th>
+                <th scope="col">Photo</th>
+                <th scope="col">Tanggal Dibuat</th>
                 <th scope="col">Action</th>
             </tr>
             </thead>
@@ -51,6 +52,7 @@
                     <td>{{$news->title}}</td>
                     <td>{{$news->author}}</td>
                     <td>{{$news->visitor}}</td>
+                    <td>{{$news->news_category->name}}</td>
                     <td style="width: 300px;">{{$news->content}}</td>
                     <td style="width: 300px;"><img src="{{$news->image}}" style="width: 200px; height: 200px"></td>
                     <td>{{$news->created_at}}</td>

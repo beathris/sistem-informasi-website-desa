@@ -15,7 +15,7 @@
                             <label>Kategori</label>
                             <select class="custom-select col-12" name="news_category_id" id="inlineFormCustomSelect">
                                 @foreach($data as $category)
-                                    <option value="{{$category->id}}">{{$category->name}}}</option>
+                                    <option value="{{$category->id}}">{{$category->name}}</option>
                                 @endforeach
                             </select>
                         </div>

@@ -16,7 +16,8 @@ class NewsController extends Controller
      */
     public function index()
     {
-        return view('news', ['data' => News::all()]);
+        $news = News::with('news_category')->get();
+        return view('news', ['data' => $news]);
     }
 
     /**
